@@ -1,4 +1,4 @@
-// One-off maintenance: refresh the react counts on best-of credit lines.
+// Back-up script: refresh the react counts on best-of credit lines.
 //
 // The bot only rewrites a credit line when a *new* react lands on the meme
 // (or someone summons it), so every meme inducted before that behaviour
