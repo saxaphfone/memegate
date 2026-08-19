@@ -4,7 +4,8 @@
   "description": "Discord bot that gates a memes channel behind a react quota",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "backfill:best-of": "node scripts/backfill-best-of.js"
   },
   "dependencies": {
     "discord.js": "^14.17.0",
