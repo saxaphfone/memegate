@@ -18,8 +18,8 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 require('dotenv').config();
 
-const BEST_OF_CHANNEL_ID = process.env.BEST_OF_CHANNEL_ID || '1108929483198705684';
-const REQUIRED_EMOJI = process.env.REQUIRED_EMOJI || 'stnlee';
+const BEST_OF_CHANNEL_ID = process.env.BEST_OF_CHANNEL_ID || '(CHANNEL ID)';
+const REQUIRED_EMOJI = process.env.REQUIRED_EMOJI || '(EMOJI)';
 
 const args = process.argv.slice(2);
 const APPLY = args.includes('--apply');
